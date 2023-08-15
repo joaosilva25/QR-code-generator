@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="assets/css/bootstrap.min.css">
+    <link rel="stylesheet" href="code.css">
+    <title>QRCODE</title>
+</head>
+<body>
+    <div class="container-fluid">
+        <header>
+            <div class="logos d-flex justify-content-end">
+                <a href="https://github.com/joaosilva25?tab=repositories"><ion-icon name="logo-github"></ion-icon></a>
+                <a href="https://www.linkedin.com/in/jo%C3%A3o-vitor-silva-907618275"><ion-icon name="logo-linkedin"></ion-icon></a>
+            </div>
+        </header>
+        <main>
+            <div class="title text-center">
+                <h1>QRCODE</h1>
+                <p>Transforme qualquer texto ou URL em um código visual inteligente. Simplesmente digite a informação, gere o QR Code e compartilhe-o com 
+                    o mundo! Acesse facilmente websites, contatos, promoções e muito mais!</p>
+            </div>
+            <div class="generator">
+                    <p>Insira sua URL aqui</p>
+                    <input type="text" placeholder="ex: https://www.teste.com.bt"><br><br>
+                    <button onclick="generate()">Create QR</button>
+            </div>
+        </main>
+        <aside>
+            <div class="qrcode d-flex justify-content-center">
+                <img></img>
+                <h5></h5>
+                <a class="baixar">
+                    <button class="btn">
+                        <ion-icon name="arrow-down-circle-outline"></ion-icon>
+                    </button>
+                </a>
+            </div>
+        </aside>
+    </div>
+
+
+    <script type="text/javascript" src="assets/js/bootstrap.bundle.min.js"></script>
+    <script src="code.js"></script>
+    <script type="module" src="https://unpkg.com/ionicons@7.1.0/dist/ionicons/ionicons.esm.js"></script>
+    <script nomodule src="https://unpkg.com/ionicons@7.1.0/dist/ionicons/ionicons.js"></script>
+
+</body>
+</html>
